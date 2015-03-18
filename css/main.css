@@ -1,0 +1,252 @@
+html{font-size:100%;height:100%;margin:0;padding:0;}
+body{font-family:'Open Sans',verdana,arial; font-weight:300; margin-top:0px; background:#dfe5e9}
+
+header
+{
+/*	position:relative;*/
+	background-color:#f1f1f5;
+	color:blue;
+	margin:0;
+	padding:1px 10px 0px 10px;
+	background-color:#2b2e33;
+	color:#ffffff;
+	padding-top: 1px;
+	padding-left: 133px;
+	padding-right: 133px;
+}
+
+footer
+{
+	position:relative;
+	text-align:center;
+	background-color:#2b2e33;
+	color:#ffffff;
+	padding:5px 0px 5px 0px;
+}
+
+strong{font-weight: bold;}
+
+/* ---------------------------------------------------------------------- */
+/* Navigation
+/* ---------------------------------------------------------------------- */
+.nav-wrap {
+	/*float: right;*/
+	width:100%;
+	position: absolute;
+	bottom:0px;
+	/*border:2px solid;*/
+}
+
+.headerBloc 
+{
+	width:100%;
+	height:150px;
+	position:relative;
+	margin:0px;
+	padding:0px;
+}
+
+.headerBloc h1 h2
+{
+	position:absolute;
+	margin-top: 1px; 
+	padding-top: 2px; 
+	margin-bottom: 0px; 
+	padding-left: 160px;
+}
+
+.headerBloc .logo
+{
+	position:absolute;
+	padding-left: 20px; padding-top: 15px;
+	width:128px;
+}
+
+#nav {
+	float: right;
+	/*position: absolute;*/
+	/*border:2px solid;*/
+}
+
+/* Navigation List */
+
+ul#navlist {
+	list-style: none;	
+	margin: 0;
+	padding: 0;
+}
+
+ul#navlist li {
+	float: left;
+}
+
+ul#navlist li a { 
+	display: block;
+	font-size: 1.166em; /* 14px */
+	font-weight: 600;
+	line-height: normal;
+	color: #ffffff;
+	padding: 6px 20px 6px 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+ul#navlist li.current a,
+ul#navlist li a:hover,
+ul#navlist li a.selected {
+	color: #fff;
+	background: url(../img/nav-arrow.png) no-repeat center bottom;
+}
+
+ul#navlist li a:hover,
+ul#navlist li a.selected {
+	background-color: orange;	
+}
+
+#main-menu
+{
+	background-color:black;
+	color:white;
+	line-height:30px;
+	position:relative;
+}
+#main-menu ul
+{
+	padding: 0; /* pas de marge intérieure */
+    margin: 0; /* ni extérieure */
+    list-style: none; /* on supprime le style par défaut de la liste */
+    line-height: 30px; /* on définit une hauteur pour chaque élément */
+    text-align: center; /* on centre le texte qui se trouve dans la liste */
+}
+
+#main-menu li /* Elements des listes */      
+{ 
+    float : left; 
+    /* pour IE qui ne reconnaît pas "transparent" */
+    border-right : 1px solid #fff; /* on met une bordure blanche à droite de chaque élément */
+}
+
+#main-menu  a /* Contenu des listes */
+{
+    display : block; /* on change le type d'élément, les liens deviennent des balises de type block */
+    padding : 0; /* aucune marge intérieure */
+    background : #000; /* couleur de fond */        
+    color : #fff; /* couleur du texte */
+    text-decoration : none; /* on supprime le style par défaut des liens (la plupart du temps = souligné) */
+    width : 144px; /* largeur */
+}
+
+.impair
+{
+	background-color:blue;
+	color:white;
+}
+
+.pair
+{
+	background-color:red;
+	color:white;
+}
+
+label.valid {
+    width: 24px;
+    height: 24px;
+    background: url(http://fdata.over-blog.net/99/00/00/05/img/new/portal2-3/body/valid.png) right center no-repeat;
+    text-indent: -9999px;    
+    right:-5px;
+    top:0;
+    position:absolute;
+}
+
+label.error {
+    color: red;
+}
+
+.msgError
+{
+	color:red;
+}
+
+.msgBloc
+{
+	width: 800px;
+    height: 32px;
+	/*font-weight: bold;*/
+}
+
+.msgBloc
+{
+	width: 800px;
+    height: 32px;
+	/*font-weight: bold;*/
+}
+.msgBloc p
+{
+	background :url(http://publicdomainvectors.org/photos/dagobert83_cancel.png) left center no-repeat;
+	background-size:16px;
+	margin:5px;
+	padding:2px 50px 5px 50px;
+	font-size:12px;
+	font-weight:bold;
+	color: #881010;
+}
+
+.VALID 
+{
+	color:green;
+	background: url(http://fdata.over-blog.net/99/00/00/05/img/new/portal2-3/body/valid.png) right center no-repeat;
+}
+.ERROR
+{
+    height: 32px;
+    background: -webkit-linear-gradient(#ffbeb7, #d08383) ; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ffbeb7, #d08383); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ffbeb7, #d08383); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffbeb7, #d08383); /* Standard syntax (must be last) */
+	/*background-image :url(http://publicdomainvectors.org/photos/dagobert83_cancel.png);*/
+	border-color :#ca7474;
+	border: 2px solid #ca7474;
+}
+
+
+.WARNING{color:orange;}
+
+
+#wrapper{width:100%}
+#main-content{width:70%;padding:10px 5% 10px 5%;margin:0px 10% 0px 10%;background-color:#ffffff;}
+#sidebar{background-color:#2b2e33}
+#sidebar {color:#ffffff;padding:5px 0px 5px 0px;}
+
+.result{width:700px;height:150px;margin:2px;padding: 5px;}
+.result h4{margin-top:0;color:inherit}
+.result .result-link{font-weight:bold}
+.result>p,.result>ul{margin-bottom:0}.result>p+p{margin-top:5px}
+.result-dismissable{padding-right:35px}
+.result-dismissable .close{position:relative;top:-2px;right:-21px;color:inherit}
+.result-success{color:#000;background:url("../img/mail.png") left no-repeat;border-color:#d6e9c6;background-size: 15%;padding:0 0 0 25%;}
+.result-success hr{border-top-color:#c9e2b3}
+.result-success .result-link{color:#2b542c}
+.result-info{color:#31708f;background-color:#d9edf7;border-color:#bce8f1}
+.result-info hr{border-top-color:#a6e1ec}
+.result-info .result-link{color:#245269}
+.result-warning{color:#8a6d3b;background-color:#fcf8e3;border-color:#faebcc}
+.result-warning hr{border-top-color:#f7e1b5}
+.result-warning .result-link{color:#66512c}
+.result-danger{color:#a94442;background-color:#f2dede;border-color:#ebccd1}
+.result-danger hr{border-top-color:#e4b9c0}
+.result-danger .result-link{color:#843534}
+
+.alert{width:700px;margin:2px;padding: 5px;}
+.alert h4{margin-top:0;color:inherit}
+.alert .alert-link{font-weight:bold}
+.alert>p,.alert>ul{margin-bottom:0}.alert>p+p{margin-top:5px}.alert-dismissable{padding-right:35px}.alert-dismissable .close{position:relative;top:-2px;right:-21px;color:inherit}.alert-success{color:#3c763d;background-color:#dff0d8;border-color:#d6e9c6}.alert-success hr{border-top-color:#c9e2b3}.alert-success .alert-link{color:#2b542c}.alert-info{color:#31708f;background-color:#d9edf7;border-color:#bce8f1}.alert-info hr{border-top-color:#a6e1ec}.alert-info .alert-link{color:#245269}.alert-warning{color:#8a6d3b;background-color:#fcf8e3;border-color:#faebcc}.alert-warning hr{border-top-color:#f7e1b5}.alert-warning .alert-link{color:#66512c}.alert-danger{color:#a94442;background-color:#f2dede;border-color:#ebccd1}.alert-danger hr{border-top-color:#e4b9c0}.alert-danger .alert-link{color:#843534}
+@-webkit-keyframes progress-bar-stripes{from{background-position:40px 0}to{background-position:0 0}}
+@keyframes progress-bar-stripes{from{background-position:40px 0}to{background-position:0 0}}
+.fade{opacity:0;-webkit-transition:opacity .15s linear;transition:opacity .15s linear}
+.fade.in{opacity:1}
+
+.close{float:right;font-size:21px;font-weight:bold;line-height:1;color:#000;text-shadow:0 1px 0 #fff;filter:alpha(opacity=20);opacity:.2}.close:hover,.close:focus{color:#000;text-decoration:none;cursor:pointer;filter:alpha(opacity=50);opacity:.5}button.close{-webkit-appearance:none;padding:0;cursor:pointer;background:transparent;border:0}
+
+.tabArticle{padding:5px;}
+.tabArticle .entete{background-color:#e1e1e1;}
+.tabArticle .entete td{padding:5px 10px 5px 10px;}
